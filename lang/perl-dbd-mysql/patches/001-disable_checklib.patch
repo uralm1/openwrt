@@ -1,0 +1,15 @@
+--- a/Makefile.PL
++++ b/Makefile.PL
+@@ -207,9 +207,9 @@ MSG
+ 
+ print "Checking if libs are available for compiling...\n";
+ 
+-assert_lib(
+-  LIBS => ($opt->{'embedded'} ? $opt->{'embedded'} : $opt->{libs}),
+-);
++#assert_lib(
++#  LIBS => ($opt->{'embedded'} ? $opt->{'embedded'} : $opt->{libs}),
++#);
+ 
+ print "Looks good.\n\n";
+ 

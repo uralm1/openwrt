@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# add to feeds.conf
+#src-link uralm1 /home/sv/src/openwrt/uralm1
+
+#scripts/feeds update uralm1
+#scripts/feeds install -a -p uralm1
+
+#make package/feeds/uralm1/perl-devel-checklib/compile V=s
+#make package/feeds/uralm1/perl-sys-runalone/compile V=s
+
+#make package/feeds/uralm1/perl-netaddr-ip/clean
+#make package/feeds/uralm1/perl-netaddr-ip/configure V=s
+#make package/feeds/uralm1/perl-netaddr-ip/compile V=s
+
+#make package/feeds/uralm1/perl-dbd-mysql/clean
+#make package/feeds/uralm1/perl-dbd-mysql/prepare
+#make package/feeds/uralm1/perl-dbd-mysql/compile V=s
+
+#make package/feeds/uralm1/perl-mojolicious/clean
+#make package/feeds/uralm1/perl-mojolicious/configure V=s
+#make package/feeds/uralm1/perl-mojolicious/compile V=s
+
+#make package/feeds/uralm1/perl-cpanel-json-xs/clean
+#make package/feeds/uralm1/perl-cpanel-json-xs/configure V=s
+#make package/feeds/uralm1/perl-cpanel-json-xs/compile V=s
+
+#make package/feeds/uralm1/perl-canary-stability/compile V=s
+#make package/feeds/uralm1/perl-canary-stability/host/compile V=s
+
+#make package/feeds/uralm1/perl-common-sense/compile V=s
+
+#make package/feeds/uralm1/perl-ev/clean
+#make package/feeds/uralm1/perl-ev/configure V=s
+#make package/feeds/uralm1/perl-ev/compile V=s
+
+#make package/feeds/uralm1/perl-net-ssleay/clean
+#make package/feeds/uralm1/perl-net-ssleay/configure V=s
+#make package/feeds/uralm1/perl-net-ssleay/compile V=s
+
+#make package/feeds/uralm1/perl-io-socket-ssl/clean
+#make package/feeds/uralm1/perl-io-socket-ssl/prepare
+#make package/feeds/uralm1/perl-io-socket-ssl/configure V=s
+#make package/feeds/uralm1/perl-io-socket-ssl/compile V=s
+
+#make package/feeds/uralm1/perl-minion/clean
+#make package/feeds/uralm1/perl-minion/prepare
+#make package/feeds/uralm1/perl-minion/configure V=s
+#make package/feeds/uralm1/perl-minion/compile V=s

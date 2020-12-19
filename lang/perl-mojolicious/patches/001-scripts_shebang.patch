@@ -1,0 +1,24 @@
+--- a/script/hypnotoad
++++ b/script/hypnotoad
+@@ -1,4 +1,4 @@
+-#!perl
++#!/usr/bin/perl
+ use Mojo::Base -strict;
+ 
+ use Mojo::Server::Hypnotoad;
+--- a/script/mojo
++++ b/script/mojo
+@@ -1,4 +1,4 @@
+-#!perl
++#!/usr/bin/perl
+ use Mojo::Base -strict;
+ 
+ use Mojolicious::Commands;
+--- a/script/morbo
++++ b/script/morbo
+@@ -1,4 +1,4 @@
+-#!perl
++#!/usr/bin/perl
+ use Mojo::Base -strict;
+ 
+ use Mojo::Server::Morbo;
