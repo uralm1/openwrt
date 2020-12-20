@@ -47,3 +47,33 @@
 #make package/feeds/uralm1/perl-minion/prepare
 #make package/feeds/uralm1/perl-minion/configure V=s
 #make package/feeds/uralm1/perl-minion/compile V=s
+
+#make package/feeds/uralm1/perl-minion-backend-mysql/clean
+#make package/feeds/uralm1/perl-minion-backend-mysql/prepare
+#make package/feeds/uralm1/perl-minion-backend-mysql/configure V=s
+#make package/feeds/uralm1/perl-minion-backend-mysql/compile V=s
+
+#make package/feeds/uralm1/perl-minion-backend-sqlite/clean
+#make package/feeds/uralm1/perl-minion-backend-sqlite/prepare
+#make package/feeds/uralm1/perl-minion-backend-sqlite/configure V=s
+#make package/feeds/uralm1/perl-minion-backend-sqlite/compile V=s
+
+#make package/feeds/uralm1/perl-dbd-sqlite/clean
+#make package/feeds/uralm1/perl-dbd-sqlite/prepare
+#make package/feeds/uralm1/perl-dbd-sqlite/configure V=s
+#make package/feeds/uralm1/perl-dbd-sqlite/compile V=s
+
+#make package/feeds/uralm1/perl-sql-abstract/clean
+#make package/feeds/uralm1/perl-sql-abstract/prepare
+#make package/feeds/uralm1/perl-sql-abstract/configure V=s
+#make package/feeds/uralm1/perl-sql-abstract/compile V=s
+
+#make package/feeds/uralm1/perl-mojo-mysql/clean
+#make package/feeds/uralm1/perl-mojo-mysql/prepare
+#make package/feeds/uralm1/perl-mojo-mysql/configure V=s
+#make package/feeds/uralm1/perl-mojo-mysql/compile V=s
+
+#make package/feeds/uralm1/perl-mojo-sqlite/clean
+#make package/feeds/uralm1/perl-mojo-sqlite/prepare
+#make package/feeds/uralm1/perl-mojo-sqlite/configure V=s
+#make package/feeds/uralm1/perl-mojo-sqlite/compile V=s

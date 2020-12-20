@@ -20,9 +20,13 @@ define Package/perl-sys-runalone
   SUBMENU:=Perl
   SECTION:=lang
   CATEGORY:=Languages
-  TITLE:=Sys::RunAlone makes sure only one invocation is active
+  TITLE:=Makes sure only one invocation is active
   URL:=https://metacpan.org/pod/Sys::RunAlone
   DEPENDS:=perl +perlbase-essential +perlbase-fcntl
+endef
+
+define Package/perl-sys-runalone/description
+	Sys::RunAlone makes sure only one invocation is active.
 endef
 
 define Build/Configure
