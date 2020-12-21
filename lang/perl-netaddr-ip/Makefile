@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=perl-netaddr-ip
 PKG_VERSION:=4.079
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_URL:=http://www.cpan.org/authors/id/M/MI/MIKER/
 PKG_SOURCE:=NetAddr-IP-$(PKG_VERSION).tar.gz
@@ -22,9 +22,13 @@ define Package/perl-netaddr-ip
   SUBMENU:=Perl
   SECTION:=lang
   CATEGORY:=Languages
-  TITLE:=NetAddr::IP manages IPv4 and IPv6 addresses and subnets
+  TITLE:=Manages IPv4 and IPv6 addresses and subnets
   URL:=https://metacpan.org/pod/NetAddr::IP
   DEPENDS:=perl +perlbase-essential +perlbase-autoloader +perlbase-storable +perlbase-dynaloader
+endef
+
+define Package/perl-netaddr-ip/description
+	NetAddr::IP manages IPv4 and IPv6 addresses and subnets.
 endef
 
 define Build/Configure

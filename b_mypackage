@@ -77,3 +77,39 @@
 #make package/feeds/uralm1/perl-mojo-sqlite/prepare
 #make package/feeds/uralm1/perl-mojo-sqlite/configure V=s
 #make package/feeds/uralm1/perl-mojo-sqlite/compile V=s
+
+#make package/feeds/uralm1/perl-try-tiny/clean
+#make package/feeds/uralm1/perl-try-tiny/prepare
+#make package/feeds/uralm1/perl-try-tiny/configure V=s
+#make package/feeds/uralm1/perl-try-tiny/compile V=s
+
+#make package/feeds/uralm1/perl-sub-quote/clean
+#make package/feeds/uralm1/perl-sub-quote/prepare
+#make package/feeds/uralm1/perl-sub-quote/configure V=s
+#make package/feeds/uralm1/perl-sub-quote/compile V=s
+
+#make package/feeds/uralm1/perl-role-tiny/clean
+#make package/feeds/uralm1/perl-role-tiny/prepare
+#make package/feeds/uralm1/perl-role-tiny/configure V=s
+#make package/feeds/uralm1/perl-role-tiny/compile V=s
+
+#make package/feeds/uralm1/perl-hash-merge/clean
+#make package/feeds/uralm1/perl-hash-merge/prepare
+#make package/feeds/uralm1/perl-hash-merge/configure V=s
+#make package/feeds/uralm1/perl-hash-merge/compile V=s
+
+#make package/feeds/uralm1/perl-clone/clean
+#make package/feeds/uralm1/perl-clone/prepare
+#make package/feeds/uralm1/perl-clone/configure V=s
+#make package/feeds/uralm1/perl-clone/compile V=s
+
+#make package/feeds/uralm1/perl-clone-choose/clean
+#make package/feeds/uralm1/perl-clone-choose/prepare
+#make package/feeds/uralm1/perl-clone-choose/configure V=s
+#make package/feeds/uralm1/perl-clone-choose/compile V=s
+
+#make package/feeds/uralm1/perl-moo/clean
+#make package/feeds/uralm1/perl-moo/prepare
+#make package/feeds/uralm1/perl-moo/configure V=s
+#make package/feeds/uralm1/perl-moo/compile V=s
+

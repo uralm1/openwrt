@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=perl-sys-runalone
 PKG_VERSION:=0.13
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_URL:=http://www.cpan.org/authors/id/T/TI/TILLY/
 PKG_SOURCE:=Sys-RunAlone-$(PKG_VERSION).tar.gz
