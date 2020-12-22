@@ -55,7 +55,6 @@
 
 #make package/feeds/uralm1/perl-minion-backend-sqlite/clean
 #make package/feeds/uralm1/perl-minion-backend-sqlite/prepare
-#make package/feeds/uralm1/perl-minion-backend-sqlite/configure V=s
 #make package/feeds/uralm1/perl-minion-backend-sqlite/compile V=s
 
 #make package/feeds/uralm1/perl-dbd-sqlite/clean
@@ -75,7 +74,6 @@
 
 #make package/feeds/uralm1/perl-mojo-sqlite/clean
 #make package/feeds/uralm1/perl-mojo-sqlite/prepare
-#make package/feeds/uralm1/perl-mojo-sqlite/configure V=s
 #make package/feeds/uralm1/perl-mojo-sqlite/compile V=s
 
 #make package/feeds/uralm1/perl-try-tiny/clean
