@@ -1,17 +1,17 @@
 #!/bin/bash
 
-# add to feeds.conf
-#src-link uralm1 /home/sv/src/openwrt/uralm1
-
-#scripts/feeds update uralm1
-#scripts/feeds install -a -p uralm1
-
 #make package/feeds/uralm1/perl-devel-checklib/compile V=s
 #make package/feeds/uralm1/perl-sys-runalone/compile V=s
 
 #make package/feeds/uralm1/perl-netaddr-ip/clean
 #make package/feeds/uralm1/perl-netaddr-ip/configure V=s
 #make package/feeds/uralm1/perl-netaddr-ip/compile V=s
+
+#make package/feeds/uralm1/perl-dbi/clean
+#make package/feeds/uralm1/perl-dbi/prepare
+#make package/feeds/uralm1/perl-dbi/configure V=s
+#make package/feeds/uralm1/perl-dbi/compile V=s
+#make package/feeds/uralm1/perl-dbi/host/compile V=s
 
 #make package/feeds/uralm1/perl-dbd-mysql/clean
 #make package/feeds/uralm1/perl-dbd-mysql/prepare
