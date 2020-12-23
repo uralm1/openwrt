@@ -111,3 +111,13 @@
 #make package/feeds/uralm1/perl-moo/configure V=s
 #make package/feeds/uralm1/perl-moo/compile V=s
 
+#make package/feeds/uralm1/perl-uri-db/clean
+#make package/feeds/uralm1/perl-uri-db/prepare
+#make package/feeds/uralm1/perl-uri-db/configure V=s
+#make package/feeds/uralm1/perl-uri-db/compile V=s
+
+#make package/feeds/uralm1/perl-uri-nested/clean
+#make package/feeds/uralm1/perl-uri-nested/prepare
+#make package/feeds/uralm1/perl-uri-nested/configure V=s
+#make package/feeds/uralm1/perl-uri-nested/compile V=s
+

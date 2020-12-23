@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=perl-mojo-sqlite
 PKG_VERSION:=3.004
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE:=Mojo-SQLite-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://cpan.metacpan.org/authors/id/D/DB/DBOOK/
@@ -22,7 +22,7 @@ define Package/perl-mojo-sqlite
 	CATEGORY:=Languages
 	TITLE:=A tiny Mojolicious wrapper for SQLite
 	URL:=https://metacpan.org/pod/Mojo::SQLite/
-	DEPENDS:=perl +perlbase-essential +perl-dbd-sqlite +perl-dbi +perl-mojolicious +perlbase-scalar +perlbase-file +perl-uri
+	DEPENDS:=perl +perlbase-essential +perl-dbd-sqlite +perl-dbi +perl-mojolicious +perlbase-scalar +perlbase-file +perl-uri-db +perl-uri
 endef
 
 define Package/perl-mojo-sqlite/description
