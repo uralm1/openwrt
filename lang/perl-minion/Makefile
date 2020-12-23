@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=perl-minion
 PKG_VERSION:=10.14
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE:=Minion-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://cpan.metacpan.org/authors/id/S/SR/SRI/
@@ -12,6 +12,8 @@ PKG_MAINTAINER:=Ural Khassanov <uralm@uwc.ufanet.ru>
 PKG_LICENSE:=Artistic-2.0
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/perl/Minion-$(PKG_VERSION)
+
+PKG_LEAVE_COMMENTS:=1
 
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/perl/perlmod.mk
