@@ -1,15 +1,15 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=perl-mojolicious
-PKG_VERSION:=8.67
+PKG_VERSION:=8.70
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=https://cpan.metacpan.org/authors/id/S/SR/SRI/
 PKG_SOURCE:=Mojolicious-$(PKG_VERSION).tar.gz
-PKG_HASH:=bba0d6020d4f2a71fa0454d53f57997e18f1831559e670f1f195fdbb9d962a2c
+PKG_HASH:=6b186fdcc49c56521ddbf954a68a8a688cde712a7573281480a8740c206c77cb
 
-PKG_LICENSE:=Artistic-2.0-Perl
-PKG_MAINTAINER:=Ural Khassanov <uralm1@gmail.com>
+PKG_LICENSE:=artistic_2
+PKG_MAINTAINER:=Ural Khasanov <uralm1@gmail.com>
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/perl/Mojolicious-$(PKG_VERSION)
 

@@ -121,3 +121,13 @@
 #make package/feeds/uralm1/perl-uri-nested/configure V=s
 #make package/feeds/uralm1/perl-uri-nested/compile V=s
 
+#make package/feeds/uralm1/perl-time-timegm/clean
+#make package/feeds/uralm1/perl-time-timegm/prepare
+#make package/feeds/uralm1/perl-time-timegm/configure V=s
+#make package/feeds/uralm1/perl-time-timegm/compile V=s
+
+#make package/feeds/uralm1/perl-algorithm-cron/clean
+#make package/feeds/uralm1/perl-algorithm-cron/prepare
+#make package/feeds/uralm1/perl-algorithm-cron/configure V=s
+#make package/feeds/uralm1/perl-algorithm-cron/compile V=s
+
