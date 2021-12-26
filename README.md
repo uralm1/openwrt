@@ -1,4 +1,5 @@
-# OpenWrt uralm1 feed
+# OpenWrt uralm1 feed (perl packages for OpenWrt)
+Mojolicious, Minion, etc...
 
 ```
 # add to feeds.conf
@@ -14,6 +15,6 @@ scripts/feeds install -a -p uralm1
 ```
 
 Not needed in openwrt-21.02 (already upstream)
--perl-dbi
--perl-try-tiny
--perl-netaddr-ip
+- perl-dbi
+- perl-try-tiny
+- perl-netaddr-ip
