@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=perl-ev
 PKG_VERSION:=4.33
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE:=EV-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://cpan.metacpan.org/authors/id/M/ML/MLEHMANN/
@@ -14,6 +14,8 @@ PKG_LICENSE:=unknown
 PKG_BUILD_DIR:=$(BUILD_DIR)/perl/EV-$(PKG_VERSION)
 
 PKG_BUILD_DEPENDS:=perl-canary-stability/host
+
+PKG_USE_MIPS16:=0
 
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/perl/perlmod.mk
